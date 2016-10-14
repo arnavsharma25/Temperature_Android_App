@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     }
 
     //Random Celsius Temperature Generator at the start of the App
+
     public static float randnumgenerator(){
         Random r = new Random();
         int Low = -20;
@@ -105,6 +106,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         else{
             diplayTemperature(temperatureList,"°C");
         }
+
     }
 
     // Used to load the 'native-lib' library on application startup.
